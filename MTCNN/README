@@ -1,0 +1,1 @@
+python3 MTCNN2.py --image_folder /home/ee491/muhannad492/saudiT/License_Plate_Detection_Pytorch-master/MTCNN/cropit --output_folder /home/ee491/muhannad492/saudiT/License_Plate_Detection_Pytorch-master/MTCNN/croped --mini_lp 50 15
