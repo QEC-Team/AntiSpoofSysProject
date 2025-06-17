@@ -18,17 +18,17 @@ import numpy as np
 from utils.util import*
 from imutils import paths
 
-img_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/lpd_train"
-pos_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/train/12/positive"
-part_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/train/12/part"
-neg_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/train/12/negative"
+img_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/lpd_train"
+pos_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/train/12/positive"
+part_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/train/12/part"
+neg_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/train/12/negative"
 
 
 
-#img_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/lpd_val"
-#pos_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/val/12/positive"
-#part_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/val/12/part"
-#neg_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/val/12/negative"
+#img_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/lpd_val"
+#pos_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/val/12/positive"
+#part_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/val/12/part"
+#neg_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/val/12/negative"
 
 
 if not os.path.exists(pos_save_dir):

@@ -12,10 +12,10 @@ import random
 from imutils import paths
 from MTCNN import create_mtcnn_net
 
-img_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/lpd_val"
-pos_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/val/24/positive"
-part_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/val/24/part"
-neg_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/val/24/negative"
+img_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/lpd_val"
+pos_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/val/24/positive"
+part_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/val/24/part"
+neg_save_dir = "/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/val/24/negative"
 
 if not os.path.exists(pos_save_dir):
     os.mkdir(pos_save_dir)
@@ -58,8 +58,8 @@ for annotation in img_paths:
 
     image = cv2.imread(im_path)
     
-    bboxes = create_mtcnn_net(image, [50,50], device, p_model_path='/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/train/pnet_Weights', o_model_path=None)
-    #bboxes = create_mtcnn_net(image, 50, device, p_model_path='/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/train/pnet_Weights', o_model_path=None)
+    bboxes = create_mtcnn_net(image, [50,50], device, p_model_path='/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/train/pnet_Weights', o_model_path=None)
+    #bboxes = create_mtcnn_net(image, 50, device, p_model_path='/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/train/pnet_Weights', o_model_path=None)
     dets = np.round(bboxes[:, 0:4])
 
     if dets.shape[0] == 0:

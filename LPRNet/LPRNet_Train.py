@@ -31,8 +31,8 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='LPR Training')
     parser.add_argument('--img_size', default=(94, 24), help='the image size')
-    parser.add_argument('--img_dirs_train', default="//media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/LPRNet/data/LPR_Data_Train", help='the training images path')
-    parser.add_argument('--img_dirs_val', default="/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/LPRNet/data/LPR_Data_Test", help='the validation images path')
+    parser.add_argument('--img_dirs_train', default="//media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/LPRNet/data/LPR_Data_Train", help='the training images path')
+    parser.add_argument('--img_dirs_val', default="/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/LPRNet/data/LPR_Data_Test", help='the validation images path')
     parser.add_argument('--dropout_rate', default=0.5, help='dropout rate.')
     parser.add_argument('--epoch', type=int, default=33, help='number of epoches for training')
     parser.add_argument('--batch_size', default=128, help='batch size')

@@ -17,7 +17,7 @@ import classifier
 
 def check_complete_match(car_model, plate_number, person_name):
     # Correct the connection string format
-    conn = psycopg2.connect("dbname='access_qu_database' user='sdp2' password='2000' host='localhost'")
+    conn = psycopg2.connect("dbname='access_database' user='sdp2' password='2000' host='localhost'")
     cursor = conn.cursor()
     
     # Adjusted query to handle different matching scenarios

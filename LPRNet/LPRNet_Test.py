@@ -77,7 +77,7 @@ def decode(preds, CHARS):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='LPR Demo')
-    parser.add_argument("-image", help='image path', default='//media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/LPRNet/Test_Image.jpg', type=str)
+    parser.add_argument("-image", help='image path', default='//media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/LPRNet/Test_Image.jpg', type=str)
     args = parser.parse_args()
     
     

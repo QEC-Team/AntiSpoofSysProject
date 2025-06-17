@@ -15,9 +15,9 @@ from glob import glob
 
 # Setup argument parser
 parser = argparse.ArgumentParser(description='Split dataset into training and validation sets.')
-parser.add_argument("-image_dir", help='Path to the directory containing images.', default='/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/License_Plate_Detection_Dataset', type=str)
-parser.add_argument("-train_dir", help='Directory to save training images.', default='/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/lpd_train', type=str)
-parser.add_argument("-val_dir", help='Directory to save validation images.', default='/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/MTCNN/data_set/lpd_val', type=str)
+parser.add_argument("-image_dir", help='Path to the directory containing images.', default='/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/License_Plate_Detection_Dataset', type=str)
+parser.add_argument("-train_dir", help='Directory to save training images.', default='/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/lpd_train', type=str)
+parser.add_argument("-val_dir", help='Directory to save validation images.', default='/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/MTCNN/data_set/lpd_val', type=str)
 parser.add_argument("-val_ratio", help='Ratio of validation to total images.', default=0.2, type=float)
 args = parser.parse_args()
 

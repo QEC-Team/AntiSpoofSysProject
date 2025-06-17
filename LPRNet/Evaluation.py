@@ -102,7 +102,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='LPR Evaluation')
     parser.add_argument('--img_size', default=(94, 24), help='the image size')
-    parser.add_argument('--img_dirs', default="/media/muhannad/wdd3/thamer/perfect/sdp4/AntiSpoofSys/LPRNet/data/LPR_Data", help='the images path')
+    parser.add_argument('--img_dirs', default="/media/muhannad/wdd3/thamer/perfect/sdp4/SmartGateAI/LPRNet/data/LPR_Data", help='the images path')
     parser.add_argument('--dropout_rate', default=0.5, help='dropout rate.')
     parser.add_argument('--batch_size', default=128, help='batch size.')
     args = parser.parse_args()

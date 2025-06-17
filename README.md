@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="result.gif" width="200" alt="AntiSpoofSys Logo"/>
+  <img src="result.gif" width="600" alt="SmartGateAI Logo"/>
 </p>
 
-# AntiSpoofSys
+# SmartGateAI
 
-AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance security and efficiency. It leverages advanced machine learning and computer vision techniques to verify vehicles, license plates, and drivers in real-time, ensuring a seamless and secure access experience.
+SmartGateAI is an AI-powered vehicle gate access system designed to enhance security and efficiency. It leverages advanced machine learning and computer vision techniques to verify vehicles, license plates, and drivers in real-time, ensuring a seamless and secure access experience.
 
 ---
 
@@ -54,7 +54,7 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 
 ## Demo
 
-![AntiSpoofSys Demo](result.gif)
+![SmartGateAI Demo](result.gif)
 
 
 
@@ -64,12 +64,12 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/AntiSpoofSysProject.git
+   git clone https://github.com/QEC-Team/SmartGateAI.git
    ```
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd AntiSpoofSysProject
+   cd SmartGateAI
    ```
 
 3. **Install Dependencies:**
@@ -108,7 +108,7 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 
 ## Set Up the Database
    - Ensure PostgreSQL is installed and running.
-   - Create a database using SQL (see database.sql file for reference)
+   - Create a database using SQL (see Access_database.sql file for reference)
      
    ```bash
      psql -U <username> -c "CREATE DATABASE <database_name>;"
@@ -137,8 +137,8 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 
 To use our prepared training datasets:
 
-- [Download License_Plate_Detection_Dataset](https://drive.google.com/XXXXXXXXXX)
-- [Download License_Plate_Recognation_Dataset](https://drive.google.com/YYYYYYYYYY)
+- [Download License_Plate_Detection_Dataset](https://drive.google.com/drive/folders/1ukTzEKa-aNw1JxJAKOXcoB5xG2voq-3y?usp=sharing)
+- [Download License_Plate_Recognation_Dataset](https://drive.google.com/drive/folders/15CuXsMFdYg5pDeJir5EWVappXpD-4DEF?usp=drive_link)
 
 > These folders are empty in the repository and must be downloaded separately due to size limits.
 
